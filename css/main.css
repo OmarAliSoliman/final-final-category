@@ -1,0 +1,302 @@
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Start Nav-Bar */
+
+.navbar
+{
+  background-color: #08526d;
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.navbar-brand > span {
+  font-size: 30px;
+}
+
+.navbar-brand img
+{
+  width: 105px;
+  height: 90px;
+  margin-top: -25px;
+  margin-bottom: -16px;
+}
+
+.navbar-brand span
+{
+  font-size: 21px;
+  margin-top: -15px;
+  display: inline-block;
+  margin-top: -16px;
+  margin-left: 5px;
+}
+
+.navbar-brand span:first-child {
+  color: #08526d;
+  font-weight: bold;
+}
+
+.navbar-brand span:last-child {
+  color: #ff6700;
+}
+
+.navbar-nav .nav-link {
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 20px;
+  color: #fff !important;
+}
+
+.navbar-nav .nav-item .active
+{
+  color: #000 !important;
+}
+
+.navbar .modal .modal-body i {
+  margin-left: 10px;
+}
+
+.navbar .modal .modal-body span {
+  display: inline-block;
+  color: #ff6700;
+  margin-left: 10px;
+}
+
+/* End Nav-Bar */
+
+/* Start jumbotron */
+.jumbotron {
+  margin-bottom: 0rem;
+  padding: 3rem 2rem;
+}
+
+@media (max-width: 1200px)
+{
+  .jumbotron h1{
+    font-size: 50px !important;
+  }
+  .jumbotron p{
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 990px)
+{
+  .jumbotron h1{
+    font-size: 50px !important;
+  }
+  .jumbotron p{
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 867px)
+{
+  .jumbotron h1{
+    font-size: 40px !important;
+  }
+  .jumbotron p{
+    font-size: 16px !important;
+  }
+}
+
+
+
+
+.jumbotron span {
+  color: #002851;
+}
+
+.jumbotron p {
+  margin-left: 1rem;
+}
+
+@media (max-width: 867px) {
+  .jumbotron h1 {
+    font-size: 4rem;
+  }
+}
+
+/* End jumbotron */
+
+/* Start Category */
+
+.category {
+  padding: 62px 30px 80px 30px;
+  background-color: #f0f5f7;
+  direction: rtl;
+}
+.category .heading {
+  margin-bottom: 40px;
+}
+
+.category .heading span {
+  font-size: 30px;
+  color: #ff6700;
+}
+
+.category .card {
+  margin-bottom: 20px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+@media (max-width: 1200px)
+{
+  .category .card{
+    width: 14rem !important;
+  }
+}
+
+@media (max-width: 867px)
+{
+  .category .card{
+    width: 16rem !important;
+  }
+}
+
+@media (max-width: 576px)
+{
+  .category .card{
+    width: 16rem !important;
+  }
+}
+
+/* End Category */
+
+/* Start footer */
+
+.footer {
+  padding: 62px 30px 18px 30px;
+  background-color: #27282a;
+  direction: rtl;
+}
+
+.footer .footer-brand:hover {
+  text-decoration: none !important;
+}
+
+.footer .footer-brand h5 {
+  color: #ff6700;
+}
+
+.footer h5 {
+  color: #fff;
+}
+
+.footer .footer-text {
+  color: #777;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.footer .input-group button {
+  background-color: #14d527;
+  color: #fff;
+  border: 1px solid #14d527;
+}
+
+.footer .input-group button:focus,
+.footer .input-group button:hover {
+  border: 1px solid #14d527;
+}
+
+.footer .btn:focus,
+.footer .btn-primary:focus {
+  box-shadow: none;
+}
+
+.footer .input-group input
+{
+  border-radius: 0;
+}
+
+.footer .input-group .modal-content p {
+  padding: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #04b5e7;
+  margin-top: 16px;
+  border-top: 2px solid #080;
+}
+
+/* Start Copy right */
+
+.copy-right {
+  margin-top: 50px;
+  border-top: 1px solid #7773;
+  padding-top: 20px;
+}
+
+@media (max-width: 867px)
+{
+  .copy-right .copy{
+    font-size: 13px !important;
+  }
+}
+
+
+@media (max-width: 567px)
+{
+  .copy-right .copy{
+    font-size: 12px !important;
+  }
+}
+
+
+.copy-right ul {
+  margin: 0;
+}
+.copy-right ul li {
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.copy-right ul li a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  transition: all 0.5s linear;
+}
+
+.copy-right ul li a i {
+  transition: all 0.3s ease-in-out;
+}
+
+.copy-right ul li a i.fa-facebook-f {
+  color: #5270a3;
+}
+
+.copy-right ul li a i:hover {
+  color: #6c757d;
+}
+
+/* End CopyRight */
+
+/* End footer */
+
+/* Start Floating Point */
+
+.floting {
+  position: fixed;
+  right: 0px;
+  bottom: 5px;
+  font-size: 39px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  color: rgb(254, 103, 0);
+  cursor: pointer;
+  z-index: 9999;
+  outline: none;
+  opacity: 0.7;
+  display: none;
+  transition: all 0.5s linear;
+}
+
+.floting:hover {
+  outline: 0;
+  opacity: 1;
+}
+
+/* End Floating Point */

@@ -1,0 +1,304 @@
+body {
+    font-family: 'Cairo', sans-serif;
+  }
+  
+  
+  /* Start Nav-Bar */
+  
+  .navbar
+  {
+    background-color: #08526d;
+    padding: 0.5rem 1rem 0 1rem;
+  }
+  
+  .navbar-brand > span {
+    font-size: 30px;
+  }
+  
+  .navbar-brand img
+  {
+    width: 105px;
+    height: 90px;
+    margin-top: -25px;
+    margin-bottom: -16px;
+  }
+  
+  .navbar-brand span
+  {
+    font-size: 21px;
+    margin-top: -15px;
+    display: inline-block;
+    margin-top: -16px;
+    margin-left: 5px;
+  }
+  
+  .navbar-brand span:first-child {
+    color: #08526d;
+    font-weight: bold;
+  }
+  
+  .navbar-brand span:last-child {
+    color: #ff6700;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 20px;
+    color: #fff !important;
+  }
+  
+  .navbar-nav .nav-item .active
+  {
+    color: #000 !important;
+  }
+  
+  .navbar .modal .modal-body i {
+    margin-left: 10px;
+  }
+  
+  .navbar .modal .modal-body span {
+    display: inline-block;
+    color: #ff6700;
+    margin-left: 10px;
+  }
+  
+  /* End Nav-Bar */
+  
+  /* Start jumbotron */
+  .jumbotron {
+    margin-bottom: 0rem;
+  }
+  
+  .jumbotron span {
+    color: #002851;
+  }
+  
+  .jumbotron p {
+    margin-left: 1rem;
+  }
+  
+  @media (max-width: 867px) {
+    .jumbotron h1 {
+      font-size: 4rem;
+    }
+  }
+  
+  /* End jumbotron */
+
+/* Start Quick contact */
+
+.quick-contact
+{
+  padding: 62px 30px;
+  direction: rtl;
+}
+
+.quick-contact .heading
+{
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.quick-contact .heading span
+{
+  display: inline-block;
+  font-size: 20px;
+  color: #ff6700 !important;
+}
+
+.quick-contact .card i
+{
+  font-size: 60px;
+}
+
+.quick-contact .card i
+{
+  font-size: 70px;
+  margin-bottom: 20px;
+  color: #f2bc81;
+
+}
+
+.quick-contact .card i.diffrent-color
+{
+  color: #43b0c9;
+}
+
+.quick-contact .card .card-font-awesome
+{
+  text-align: center;
+  margin-top: 16px;
+}
+
+.quick-contact .card .card-title
+{
+  font-size: 16px;
+}
+
+.quick-contact .card .card-subtitle
+{
+  font-size: 20px;
+  color: #ff6700;
+}
+
+.quick-contact .card .card-subtitle a
+{
+  color: #ff6700;
+  font-size: 14px;
+}
+
+@media(max-width: 567px)
+{
+    .quick-contact .card .card-title{
+        font-size: 15px;
+        margin-right: 3px;
+    }
+
+    .quick-contact .card .card-subtitle{
+        font-size: 16px;
+    }
+    .quick-contact .card .card-subtitle a{
+        font-size: 13px;
+        margin-right: 4px;
+    }
+}
+
+.quick-contact .card .card-subtitle a:hover
+{
+  color: #43b0c9;
+  text-decoration: none !important;
+}
+
+/* End Quick contact */
+
+/* Start footer */
+
+.footer {
+    padding: 62px 30px 18px 30px;
+    background-color: #27282a;
+    direction: rtl;
+  }
+  
+  .footer .footer-brand:hover {
+    text-decoration: none !important;
+  }
+  
+  .footer .footer-brand h5 {
+    color: #ff6700;
+  }
+  
+  .footer h5 {
+    color: #fff;
+  }
+  
+  .footer .footer-text {
+    color: #777;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+  
+  .footer .input-group button {
+    background-color: #14d527;
+    color: #fff;
+    border: 1px solid #14d527;
+  }
+  
+  .footer .input-group button:focus,
+  .footer .input-group button:hover {
+    border: 1px solid #14d527;
+  }
+  
+  .footer .btn:focus,
+  .footer .btn-primary:focus {
+    box-shadow: none;
+  }
+
+  .footer .input-group input
+{
+  border-radius: 0;
+}
+  
+  .footer .input-group .modal-content p {
+    padding: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #04b5e7;
+    margin-top: 16px;
+    border-top: 2px solid #080;
+  }
+  
+  /* Start Copy right */
+  
+  .copy-right {
+    margin-top: 50px;
+    border-top: 1px solid #7773;
+    padding-top: 20px;
+  }
+
+  @media (max-width: 567px)
+{
+  .copy-right .copy{
+    font-size: 12px !important;
+  }
+}
+
+  
+  .copy-right ul {
+    margin: 0;
+  }
+  .copy-right ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+  }
+  
+  .copy-right ul li a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition: all 0.5s linear;
+  }
+  
+  .copy-right ul li a i {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .copy-right ul li a i.fa-facebook-f {
+    color: #5270a3;
+  }
+  
+  .copy-right ul li a i:hover {
+    color: #6c757d;
+  }
+  
+  /* End CopyRight */
+  
+  /* End footer */
+  
+  /* Start Floating Point */
+  
+  .floting {
+    position: fixed;
+    right: 0px;
+    bottom: 5px;
+    font-size: 39px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    color: rgb(254, 103, 0);
+    cursor: pointer;
+    z-index: 9999;
+    outline: none;
+    opacity: 0.7;
+    display: none;
+    transition: all 0.5s linear;
+  }
+  
+  .floting:hover {
+    outline: 0;
+    opacity: 1;
+  }
+  
+  /* End Floating Point */
+  
